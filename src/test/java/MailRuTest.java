@@ -41,7 +41,7 @@ public class MailRuTest {
     @Test
     public void noLogin() {
         MailLoginPage loginPage = PageFactory.initElements(driver, MailLoginPage.class);
-        Assert.assertEquals(loginPage.signIn(), "Поле «Ия аккаунта» должно быть заполнено");
+        Assert.assertEquals(loginPage.signIn(), "Поле «Имя аккаунта» должно быть заполнено");
     }
 
     @Test
